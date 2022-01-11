@@ -1,14 +1,18 @@
 package modelo.basico;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Transient;
 
 @Entity
 public class Usuario {
 
     @Id
     private Long id;
+
     private String nome;
+
     private String email;
 
     //Construtor
