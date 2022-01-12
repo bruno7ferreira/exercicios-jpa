@@ -15,7 +15,7 @@ public class NovoUsuario {
         EntityManager gerenteEntidade = fabricaGerenteEntidade.createEntityManager();
 
         //criando usuário
-        Usuario novoUsuario = new Usuario("Nome","bruno.rogerio@brf.com");
+        Usuario novoUsuario = new Usuario("Bruno","bruno.rogerio@brf.com");
 
         // persistir/inserir no banco de dados
         gerenteEntidade.getTransaction().begin();
