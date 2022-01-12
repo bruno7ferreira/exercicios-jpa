@@ -16,7 +16,6 @@ public class NovoUsuario {
 
         //criando usuário
         Usuario novoUsuario = new Usuario("Nome","bruno.rogerio@brf.com");
-        novoUsuario.setId(1L);
 
         // persistir/inserir no banco de dados
         gerenteEntidade.getTransaction().begin();
