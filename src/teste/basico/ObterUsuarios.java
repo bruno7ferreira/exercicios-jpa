@@ -25,7 +25,7 @@ public class ObterUsuarios {
         List<Usuario>usuarios = query.getResultList();
 
         for (Usuario usuario:usuarios){
-            System.out.println("ID: "+usuario.getId()+" E-mail: "+usuario.getEmail());
+            System.out.println("ID: "+usuario.getId()+" E-mail: "+usuario.getEmail()+" Nome: "+usuario.getNome());
         }
 
 
